@@ -15,7 +15,7 @@ from bigquery_client import (
     get_pending_leaves,
     update_leave_request,
 )
-import firebase_config
+#import firebase_config
 from firebase_admin import auth
 
 app = FastAPI()
